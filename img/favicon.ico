@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>404页面</title>
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    <link rel="stylesheet" href="/bundles/acmefrontend/css/common.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<script src="http://data.darryring.com/Analytics.js?UID=DR-48670750-1"></script>
+    <!-- 新加的统计代码-->
+    <script language="JavaScript" id="phpstat_js_id_10002355">
+    var _trackDataType = 'web';
+    var _trackData = _trackData || [];
+    (function() {
+    var phpstat_js = document.createElement('script'); phpstat_js.type = 'text/javascript'; 
+    phpstat_js.charset = 'utf-8'; phpstat_js.id = 'phpstat_async_js_id_10002355'; phpstat_js.async = true;
+    phpstat_js.src = '//s1.topstat.cn/count/10002355/10002355.js';
+    var phpstat_cjs = document.getElementsByTagName('script')[0]; phpstat_cjs.parentNode.insertBefore(phpstat_js, phpstat_cjs);
+    })();
+    </script>
+    <!-- 新加的统计代码-->
+    <script>        
+            </script>
+    <link rel="stylesheet" href="/bundles/acmefrontend/css/other.css" />
+<!--引入轮播样式-->
+<link rel="stylesheet" href="/bundles/acmefrontend/css/idangerous.swiper.css" />
+<link rel="stylesheet" href="/bundles/acmefrontend/css/idangerous.swiper.3dflow.css" />
+</head>
+<body>
+    <!--banner-->
+<div class="dring-banner">
+	<a href="/darry_ring/">
+		<img src="/bundles/acmefrontend/img/dring/banner.jpg" />
+	</a>
+</div>
+<!--banner end-->
+<!--双11背景-->
+<div class="nofind_tbk">
+	<div class="w1000">
+	<!--轮播图-->
+	<div class="allnofind">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		    	<div class="swiper-slide" style="background-image:url(/bundles/acmefrontend/img/other/shop1.jpg)">
+					<a href="http://www.darryring.com/store/show-hkstore"></a>
+					<div class="swiperblack"></div>
+					<span>香港－尖沙咀店</span>
+				</div>
+				<div class="swiper-slide" style="background-image:url(/bundles/acmefrontend/img/other/shop2.jpg)">
+					<a href="http://www.darryring.com/store/show-shstore"></a>
+					<div class="swiperblack"></div>
+					<span>上海－红坊店</span>
+				</div>
+				<div class="swiper-slide" style="background-image:url(/bundles/acmefrontend/img/other/shop3.jpg)">
+					<a href="http://www.darryring.com/store/show-bjstore"></a>
+					<div class="swiperblack"></div>
+					<span>北京-SOHO店</span>
+				</div>
+				<div class="swiper-slide" style="background-image:url(/bundles/acmefrontend/img/other/shop4.jpg)">
+					<a href="http://www.darryring.com/store/show-gzstore"></a>
+					<div class="swiperblack"></div>
+					<span>广州-中信广场店</span>
+				</div>
+				<div class="swiper-slide" style="background-image:url(/bundles/acmefrontend/img/other/shop5.jpg)">
+					<a href="http://www.darryring.com/store/show-xmstore"></a>
+					<div class="swiperblack"></div>
+					<span>厦门-SM城市广场店</span>
+				</div>
+		    </div>
+		</div>
+		<div class="boxshadow"></div>
+	</div>
+	<!--轮播图end-->
+	<!--文字-->
+	<div class="nofind_word">
+		<h3><span>对不起！</span>访问的页面忙着求婚去了...</h3>
+		<p><i class="nofind_num" timeData="5" toUrl="http://www.darryring.com/">5秒后 </i><span>将返回</span>【首页】</p>
+	</div>
+	<!--文字end-->
+	</div>
+</div>
+<!--双11背景end-->
+<!--天猫京东链接-->
+<div class="w1000 Double_same fix">
+	<div class="Double_samebk">
+		<div class="Double_tm">
+			<a href="javascript:;"></a>
+		</div>
+	</div>
+	<div class="Double_samebk">
+		<div class="Double_jd">
+			<a href="javascript:;"></a>
+		</div>
+	</div>
+</div>
+<!--天猫京东链接end-->
+<!--请稍后-->
+<div class="Double_wait">
+	<p>目前网站流量过大，服务器忙不过来，请稍后...</p>
+	<a href="javascript:;" class="Double_lxkf">
+		<span>马上联系在线客服</span>
+	</a>
+	<a href="javascript:;" class="Double_tel">
+		<i></i>
+		<span></span>
+	</a>
+</div>
+     <!--JS begin-->
+    <script src="/bundles/acmefrontend/js/seajs/sea.js"></script>
+    <script>
+    var checkUrl = "/query";
+
+    // seajs 配置
+    seajs.config({
+        debug: true,
+        base: "/bundles/acmefrontend/",
+        alias: {
+          "jquery": "js/lib/jquery/jquery.js"
+        }
+    });
+    // 加载公共模块
+    seajs.use("js/page/common");
+    // 加载头部入口模块
+    seajs.use("js/page/header");
+	seajs.use("js/page/header1");
+    //加载公共脚模块
+    seajs.use("js/page/footer");
+    </script>
+
+    <!--引入轮播js-->
+<script src="/bundles/acmefrontend/js/modules/swiper.js"></script>
+<script>
+// 加载底部入口模块
+seajs.use("js/page/nofind");
+</script>
+</body>
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.darryring.com/bundles/acmefrontend/js/page/analytics.js','ga');
+
+    ga('create', 'UA-46798784-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');   
+</script>
+
+<!-- 百度代码 （所有页面） -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2c06eda8c20a9c51a74b33803073d4cc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 百度代码 end  -->
+<!-- Google 再营销代码（所有页面） -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 974707783;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/974707783/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Google 再营销代码end -->
+
+
+<!-- 腾讯广点通广告代码-所有页面 -->
+<script type="text/javascript">
+   var gdt_tracker = gdt_tracker || [];
+   gdt_tracker.push(["set_source_id", "33581"]);
+   (function() {
+       var doc=document, h=doc.getElementsByTagName("head")[0], s=doc.createElement("script");
+       s.async=true; s.src="http://qzs.qq.com/qzone/biz/res/gt.js";
+       h && h.insertBefore(s,h.firstChild)
+   })();
+</script>
+
+<!-- 珠宝咨询 -->
+<script type="text/javascript">
+  function ag_zxkf_fix() {
+      ga('send', 'event', 'zxkf_fix', 'click', 'talk', 0);
+      ga('send', 'event', 'index_kefu', 'click', 'talk', 0);
+
+      //记录用户点击小能的次数
+      var identifier = getcookie();
+      ''
+          dr('pageview', {'identifier': identifier, 'uid': 0, 'is_click': 0});
+      ''
+
+  };
+   
+   var uid = '';
+   var uname = '';
+
+    /*售前咨询弹窗*/
+    NTKF_PARAM =
+    {
+        siteid: "kf_9883",                            //Ntalker提供平台基础id,
+        settingid: "kf_9883_1402631963601",          //Ntalker分配的缺省客服组id  
+        uid: uid,                                //用户id
+        uname: uname,                     //用户名              
+        orderid: "",                     //订单id
+        orderprice: ""                      //订单价格
+    }
+
+    function showxiaon(id) {
+        if (id) {
+            NTKF.im_openInPageChat(id);
+        }
+        
+        ag_zxkf_fix();
+    }
+
+</script>
+<script type="text/javascript" src="http://dl.ntalker.com/js/xn6/ntkfstat.js?siteid=kf_9883" charset="utf-8"></script>
+
+<script type="text/javascript">
+    function mobile_device_detect(url)
+    {
+        var thisOS=navigator.platform;
+
+        var os=new Array("iPhone","iPod","android","Nokia","SymbianOS","Symbian","Windows Phone","Phone","Linux armv7l","MAUI","UNTRUSTED/1.0","Windows CE","BlackBerry","IEMobile");
+
+        for(var i=0;i<os.length;i++)
+        {
+            if(thisOS.match(os[i]))
+            {
+                window.location=url;
+            }
+
+        }
+        //因为相当部分的手机系统不知道信息,这里是做临时性特殊辨认
+        // if(navigator.platform.indexOf('iPad') != -1)
+        // {
+        //     window.location=url;
+        // }
+
+        //做这一部分是因为Android手机的内核也是Linux
+        //但是navigator.platform显示信息不尽相同情况繁多,因此从浏览器下手，即用navigator.appVersion信息做判断
+        var check = navigator.appVersion;
+
+        if( check.match(/linux/i) )
+        {
+            //X11是UC浏览器的平台 ，如果有其他特殊浏览器也可以附加上条件
+            if(check.match(/mobile/i) || check.match(/X11/i))
+            {
+                window.location=url;
+            }
+        }
+
+        //类in_array函数
+        Array.prototype.in_array = function(e)
+        {
+            for(i=0;i<this.length;i++)
+            {
+                if(this[i] == e)
+                    return true;
+            }
+            return false;
+        }
+    }
+
+    var str = location.pathname;
+    var url = str.substring(1);
+    url = url + location.search;
+
+    mobile_device_detect('http://m.darryring.com'+str);
+</script>
+
+<script type="text/javascript">
+function getcookie(){
+  var id = 0;
+  var b = '_dr.darryring.com'+ "=";;
+  if (document.cookie.length > 0) {
+      offset = document.cookie.indexOf(b);
+      if (offset != -1) {
+          offset += b.length;
+          end = document.cookie.indexOf(";", offset);
+          if (end == -1) {
+              end = document.cookie.length
+          }
+          var id = unescape(document.cookie.substring(offset, end))
+      }
+  }
+
+  return id;
+}
+
+///用户唯一表示符，
+var identifier = getcookie();
+''
+    dr('pageview', {'identifier': identifier, 'uid': 0, 'is_click': 0});
+''
+
+</script>
+
+
+</html>
